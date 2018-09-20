@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
+
+/*importacion de las fuentes*/
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-master{
+    position: relative;
+    max-height: 700px;
+    overflow: hidden;
+}
+
+.contenedor-pagina{
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    z-index: 3;
+}
+
+/*
+.contenedor-principal{
+    width: 100%;
+}
+*/
+
+
+.contenedor-principal__imagen{
+    width: 100%;
+    position: absolute;
+}
+
+
+.contenedor-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*width: 100%;*/
+    padding: 1rem 0;
+}
+
+
+
+.logo{
+    width: 100%;
+}
+
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+}
+
+.lista__elementos{
+    padding: 10px 20px;
+}
+
+
+a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color:rgb(250, 239, 239);
+    text-decoration: none;
+}
+
+.lista__link:hover{
+    border-bottom: 2px solid #f14e4e;
+}
+
+
+/*esto ya es el menu*/
+
+/*incio de contenedor del texto*/
+
+
+.contenedor-texto{
+    padding: 100px 0;
+   /*width: 100%;*/
+}
+
+.tituloUno{
+    text-align: center;
+    text-transform: uppercase;
+    color:rgb(250, 239, 239);
+    font-size: 79.9px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/*asta aqui ya esta bien*/
+
+.parrafo1{
+    text-align: center;
+    color:rgb(250, 239, 239);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.contenedor-titulo1{
+    padding: 0 70 0 70;
+}
+
+.contenedor-titulo2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.contenedor-boton{
+    display: flex;
+    justify-content: center;
+}
+
+
+.boton{
+    border: none;
+    background-color: transparent;
+    width: 300px;
+    cursor: pointer;
+    text-align: center;
+    background-color: red;
+    color:white;
+}
+
+.boton__enlace{
+    padding: 1em 2em;
+    /*
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    */
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*asta aqui ya todo esta bien :v*/
+
+.cover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,.5);
+    z-index: 2;
+}
