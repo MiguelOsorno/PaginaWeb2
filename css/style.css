@@ -41,7 +41,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /*width: 100%;*/
+    width: 100%;
     padding: 1rem 0;
 }
 
@@ -153,4 +153,50 @@ a{
     position: absolute;
     background-color: rgba(0,0,0,.5);
     z-index: 2;
+}
+
+/*todo esto ya esta bien*/
+
+.iconos{
+    color: #f14e4e;
+    font-size: 50px;
+    padding-left: 80px;
+    
+}
+
+
+.icono-blanco{
+    color: white;
+  
+    
+}
+
+
+
+.columnas{
+    width: 30%;
+    margin: 0 10px;
+}
+
+.niveluno{
+    padding: 60px 50px 0 50px;
+}
+
+.titulos-finales{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.parrafos-finales{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: gray;
+}
+
+.contenedor-pagina{
+    display: flex;
+    flex-wrap: wrap;
 }
