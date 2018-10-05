@@ -360,3 +360,73 @@ a{
 }
 
 
+/*inicio de la seccion4*/
+
+.seccion4{
+    background-color: #363a43;
+}
+
+.contenedor-seccion4{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bloques{
+    width: 25%;
+    padding-top: 60px;
+}
+
+.titulo-pie{
+    color:#fff;
+    font-size: 1.0666em;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;;
+}
+
+.logo-final{
+    width: 50%;
+}
+
+.parrafos-pie{
+    color: #b4b5b8;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.parrafos-pie2{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.modificador-final{
+    color:#FFFFFF;
+}
+
+.seccion5{
+    background-color: #2f333b;
+}
+
+.contenedor-seccion5{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  space-between;
+    padding-top: 20px;
+}
+
+.iconos2{
+    font-size: 30px;
+    color:#585F68;
+}
+
+.derechos{
+    color: #b4b5b8;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
